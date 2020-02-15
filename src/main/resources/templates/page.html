@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li>
+        日期：<span th:text="${#dates.format(date,'yyyy-MM-dd')}"></span>
+    </li>
+    <li>
+        性别：<span th:text="${sex}"></span>
+    </li>
+    <li>v
+        手机号：<span th:text="${phone}"></span>
+    </li>
+    <li>
+        住址：<span th:text="${location}"></span>
+    </li>
+    <li>
+        aa：<span th:text="${aa}"></span>
+    </li>
+</ul>
+</body>
+</html>
